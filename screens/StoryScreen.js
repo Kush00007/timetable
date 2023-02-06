@@ -87,7 +87,6 @@ export default class StoryScreen extends Component {
     if (current_color === "gray") {
       Speech.speak(title);
       Speech.speak(story);
-      Speech.speak("The moral of the story is!");
       Speech.speak(moral);
     } else {
       Speech.stop();
@@ -226,7 +225,7 @@ export default class StoryScreen extends Component {
                   
                 
                   <Ionicons
-                    name={"heart"}
+                    name={"star"}
                     size={RFValue(30)}
                     color={this.state.light_theme ? "black" : "white"}
                   />
