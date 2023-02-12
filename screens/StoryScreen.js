@@ -225,7 +225,7 @@ export default class StoryScreen extends Component {
                   
                 
                   <Ionicons
-                    name={"star"}
+                    name={"thumbs-up"}
                     size={RFValue(30)}
                     color={this.state.light_theme ? "black" : "white"}
                   />

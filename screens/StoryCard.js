@@ -149,7 +149,7 @@ export default class StoryCard extends Component {
                 onPress={() => this.likeAction()}
               >
                 <Ionicons
-                  name={"Thumbs Up"}
+                  name={"thumbs-up"}
                   size={RFValue(30)}
                   color={this.state.light_theme ? "black" : "white"}
                 />
@@ -163,8 +163,10 @@ export default class StoryCard extends Component {
                 >
                   {this.state.likes}
                 </Text>
-              </TouchableOpacity>
-            </View>
+                
+              </TouchableOpacity >
+      
+             </View>
           </View>
         </TouchableOpacity>
       );
